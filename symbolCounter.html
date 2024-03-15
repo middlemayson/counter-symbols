@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/desktop.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container flex-center">
+        <h1>Счетчик символов для постов в Instagram</h1>
+        <div class="section flex-center">
+            <textarea class="copiedtField" id="myTextField" rows="30" cols="50"></textarea>
+            <p class="text-line">Количество символов: <span class="bold" id="charCount">0</span></p>
+            <p id="remainingCount" class="green-area text-line">Осталось символов: <span id="remainingCountBold" class="bold">2200</span></p>
+        </div>
+        <button id="copyButton" class="btn--submit">Копировать текст</button>
+    </div>
+    <script src="./js/symbolCounter-script.js"></script>
+    <script src="./js/copyBtn.js"></script>
+</body>
+</html>
